@@ -14,7 +14,7 @@ Kurz, damit beide Sessions dasselbe Bild haben. Stand 13.10.2026.
   — fest verdrahtet, keine echte Logik.
 - Die Boerse /trade/ ist eine eigenstaendige Beta auf Cloudflare D1 (Nummer holen, Karte
   einbringen, nehmen, Rangliste).
-- Dein Ziel: der echte Motor (Board-UI <-> Board-API <-> Store <-> MCP), bewiesen am
+- Dein Ziel: der echte Motor (`Board-UI <-> Board-API <-> Store <-> MCP`), bewiesen am
   Hormus-Szenario, CI gruen. Wenn M1 (Walking Skeleton) gruen ist, ersetzt das echte Board
   die Demo unter /board/. Das ist der Uebergabepunkt.
 
@@ -40,4 +40,4 @@ Agenten-Zaehler, Beleg-Spur. ERPNext-Grundregel: was ERPNext kann, laeuft dort.
 - Homepage-Stand: Claude-Projekt "Wordbuilder", claude/handover-reraise-homepage-erpnext-2026-10-12.md
   und claude/uebergabe-reraise-homepage-2026-10-12.md; PDF in C:\Projects\Claude outputs\handover\.
 - Homepage live-Quellen auf dem Server: C:\Projects\reraise-site\quellen5\ ; live: C:\Projects\reraise-site\live3\.
-- Wissen: qmd query -c weltenbauer "<thema>".
+- Wissen: `qmd query -c weltenbauer "<thema>"`.
